@@ -74,6 +74,10 @@ export default function App() {
 
   const Container = styled.div`
     display: flex;
+    justify-content: center;
+    item-align: center;
+    width: 100%;
+    margin-top: 20rem;
   `;
 
   return (

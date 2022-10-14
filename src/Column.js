@@ -20,6 +20,7 @@ const TaskList = styled.div`
   background-color: ${(props) => (props.isDraggingOver ? "skyblue" : "white")};
   flex-grow: 1;
   min-height: 100px;
+  border-radius: 10px;
 `;
 
 export default function Column({ column, tasks }) {
